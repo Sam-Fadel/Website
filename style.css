@@ -21,6 +21,7 @@ p{
   font-weight: 500;
   font-size: 14px;
   padding-top: 10px;
+  line-height: 1.6;
 }
 /* MENU */
 .logo{
@@ -161,6 +162,19 @@ ul li{
 /* END OF MENU */
 
 /* FORMS */
+.assesmentFlex{
+  display:flex;
+  justify-content:space-between;
+}
+.assesmentFlex p{
+  width: 53vw;
+  padding-right: 15vw;
+}
+.assesmentFlex img{
+  height:27vw;
+  width:35vw;
+  border-radius: 2vw;
+}
 .formContainer{
   display: flex;
   padding-bottom: 1%;
