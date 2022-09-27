@@ -19,7 +19,7 @@ h2{
 p{
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 15px;
   padding-top: 10px;
   line-height: 1.6;
 }
@@ -202,7 +202,7 @@ input{
 }
 #sendButton {
     background-image: linear-gradient(to right, #B3AEE4 0%, #EEE 100%);
-    width: 15%;
+    width: 165px;
     text-align: center;
     transition: 0.5s;
     background-size: 120% auto;         
@@ -226,6 +226,39 @@ label{
   font-weight: 500;
   font-size: 14px;
   padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 /* END OF FORMS */
+
+/* FOOTER */
+
+footer{
+  display: flex;
+  width: 100%;
+  bottom: 0;
+  left:0;
+  color:#eee;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 3vw;
+  background-image: linear-gradient(to right, #B3AEE4 0%, #242A31 100%);
+}
+footer a {
+  float: center;
+  text-align: center;
+  padding: 12px;
+  color: #eee;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 300;
+}
+footer ul li{
+  
+}
+footer a:hover{
+  color: darkgray;
+  transition: 0.5s;
+}
+/* END OF FOOTER */
