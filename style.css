@@ -40,6 +40,7 @@ ul li{
 }
 .navbar a:hover{
   color: #7F73F5;
+  transition: 0.5s;
 }
 .active a{
   color: #7F73F5;
@@ -70,9 +71,9 @@ ul li{
   display: block;
 }
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
-.dropdown-content2 a:hover {background-color: #ddd;}
-.dropdown-content3 a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #ddd;transition: 0.5s;}
+.dropdown-content2 a:hover {background-color: #ddd;transition: 0.5s;}
+.dropdown-content3 a:hover {background-color: #ddd;transition: 0.5s;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
@@ -80,9 +81,9 @@ ul li{
 .dropdown3:hover .dropdown-content3 {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn a {color: #7F73F5;}
-.dropdown2:hover .dropbtn2 a {color: #7F73F5;}
-.dropdown3:hover .dropbtn3 a {color: #7F73F5;}
+.dropdown:hover .dropbtn a {color: #7F73F5;transition: 0.5s;}
+.dropdown2:hover .dropbtn2 a {color: #7F73F5;transition: 0.5s;}
+.dropdown3:hover .dropbtn3 a {color: #7F73F5;transition: 0.5s;}
 
 @media screen and (max-width: 880px) {
   .logo{
@@ -144,7 +145,9 @@ ul li{
 /* END OF MENU */
 
 /* FORMS */
-
+.formContainer{
+  display: flex;
+}
 input{
   display: block;
       width: 260px;
@@ -157,16 +160,34 @@ input{
       border-radius: 15px;
       background: #eee;
       border: solid 1px black;
-      box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;        outline-width: 0;
-  
-       
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;        outline-width: 0;     
 }
-#sendButton{
-  background-color:B3AEE4;
-  padding:2px;
+#sendButton {
+    background-image: linear-gradient(to right, #B3AEE4 0%, #EEE 100%);
+    width: 15%;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 120% auto;         
+    box-shadow: 0 0 20px #eee;
+    border-radius: 30px;
+    display: block;
+    /* padding: 25px; */
+   margin-left: 85%;
+   height:50px;
+   display: inline-flex;
+   align-items: center;
+  }
+  #sendButton:hover {
+    background-position: right center; /* change the direction of the change here */
+    text-decoration: none;
+  }
+#goals{
+height:170px;
+width: 70%;
 }
 label{
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
+  padding-top: 10px;
 }
