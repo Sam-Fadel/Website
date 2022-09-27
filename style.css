@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
+main{
+  padding-top: 100px;
+}
 /* MENU */
 .logo{
   height:40px;
