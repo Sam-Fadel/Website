@@ -258,13 +258,14 @@ footer{
   display: flex;
   width: 100%;
   bottom: 0;
-  left:0;
+  left: 0;
   color:#eee;
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 15px;
   padding: 3vw;
   background-image: linear-gradient(to right, #B3AEE4 0%, #242A31 100%);
+}
+.content{
+  display: flex;
 }
 footer a {
   float: center;
@@ -272,14 +273,31 @@ footer a {
   padding: 12px;
   color: #eee;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 300;
 }
 footer ul li{
-  
+  display: table;
+  line-height: 1.6;
+}
+.pages{
+  padding-left: 50px;
 }
 footer a:hover{
   color: darkgray;
   transition: 0.5s;
+}
+.rightBox{
+  padding-left: 41vw;
+}
+.rightBox p{
+  font-size: 12px;
+  padding-top: 0px;
+}
+.rightBox svg{
+  margin-right: 10px;
+}
+.rightBox img{
+height:35px;
 }
 /* END OF FOOTER */
