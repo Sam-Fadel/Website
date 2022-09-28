@@ -24,8 +24,107 @@ p {
   line-height: 1.6;
 }
 /* Start Design of the home Page - sam */
-main p {
-  background-color: aqua;
+.slide-show-container {
+  max-width: 1440px;
+}
+.slide-show-container img {
+  display: flex;
+  width: 900px;
+  height: 668px;
+  left: 1px;
+  top: 0px;
+  justify-content: center;
+}
+
+/*popular Bikinis */
+
+.bikinis-row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.prices {
+  font-weight: bold;
+}
+
+/*offers Section*/
+.offers-section {
+  color: whitesmoke;
+}
+.offers-section img {
+  width: 50%;
+}
+
+.button {
+  background-color: rgba(179, 174, 228, 1);
+  max-width: fit-content;
+  padding: 1%;
+  border-radius: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.button a {
+  text-decoration: none;
+  color: black;
+}
+
+/*Norma section story*/
+
+.text-image-container-story {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Reviews Athlete*/
+
+.reviews-container {
+  margin-right: 2%;
+  margin-top: 5%;
+  width: 1000px;
+}
+.reviews-container H2 {
+  text-align: center;
+}
+.reviews-container img {
+  border-radius: 50%;
+}
+
+.personas-section {
+  display: flex;
+}
+.first-client,
+.second-client,
+.third-client,
+.fourth-client {
+  margin: 5%;
+}
+.name-img-stars {
+  display: flex;
+
+  margin-left: 10%;
+}
+.name-img-stars img {
+  width: 50%;
+}
+
+/*Blogs section*/
+.blogs_container img {
+  width: 50%;
+}
+.button-blog {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgba(179, 174, 228, 1);
+  max-width: fit-content;
+  padding: 2%;
+  border-radius: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.button-blog a {
+  text-decoration: none;
+  color: black;
 }
 
 /*End Design of the Home Page */
