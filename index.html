@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles/style.css" />
     <link rel="stylesheet" href="/styles/fonts.css" />
+    <script type="text/javascript" src="js-sam/jquery.js"></script>
+    <script type="text/javascript" src="js-sam/cycle2.js"></script>
     <title>Stardust Lab</title>
   </head>
   <body>
@@ -107,10 +109,42 @@
       <main>
         <div class="main-container">
           <div class="slide-show-container">
-            <img
-              src="/images/Sam-images/images/images-slideshow/image-slideshow-1.svg"
-              alt="slide 1"
-            />
+            <div class="cycle-slideshow" data-cycle-slides=".slide">
+              <span class="cycle-prev"> &laquo; </span>
+              <span class="cycle-next"> &raquo; </span>
+              <span class="cycle-pager"></span>
+
+              <div class="slide">
+                <img
+                  src="/images/Sam-images/images/images-slideshow/image-slideshow-1.svg"
+                  alt="slide 1"
+                />
+                <div class="slide-text">
+                  <h3>Bee title here!</h3>
+                  <p>this is the caption yada yada</p>
+                </div>
+              </div>
+              <div class="slide">
+                <img
+                  src="/images/Sam-images/images/images-slideshow/image-slideshow-2.svg"
+                  alt="slide 2"
+                />
+                <div class="slide-text">
+                  <h3>Bee title here!</h3>
+                  <p>this is the caption yada yada</p>
+                </div>
+              </div>
+              <div class="slide">
+                <img
+                  src="/images/Sam-images/images/images-slideshow/image-slideshow-3.svg"
+                  alt="slide 3"
+                />
+                <div class="slide-text">
+                  <h3>Bee title here!</h3>
+                  <p>this is the caption yada yada</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="popular-bikini-container">
             <h2>Popular Bikinis</h2>
@@ -216,7 +250,7 @@
               <div class="first-client">
                 <div class="name-img-stars">
                   <img
-                    src="/images/images-slideshow/image-slideshow-1.svg"
+                    src="/images/Sam-images/images/images-slideshow/image-slideshow-4.svg"
                     alt="Client_img"
                   />
                   <p>Courtney Henry</p>
@@ -230,7 +264,7 @@
               <div class="second-client">
                 <div class="name-img-stars">
                   <img
-                    src="/images/images-slideshow/image-slideshow-1.svg"
+                    src="/images/Sam-images/images/images-slideshow/image-slideshow-1.svg"
                     alt="Client_img"
                   />
                   <p>Courtney Henry</p>
