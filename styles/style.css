@@ -1,7 +1,11 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+}
+main{
+  padding-top: 20px;
+  margin-left: 95px;
+  margin-right: 95px;
 }
 /*sam did update some od the css*/
 /*i did remove the padding*/
