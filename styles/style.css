@@ -1,15 +1,18 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
+
 /*sam did update some od the css*/
 /*i did remove the padding*/
+
+
+/*sam did update some od the css*/
+
 header {
   margin-bottom: 5%;
   width: 100%;
 }
-
 h1 {
   font-family: "Syne", sans-serif;
   font-weight: 500;
@@ -17,8 +20,7 @@ h1 {
 h2 {
   font-family: "Syne", sans-serif;
   font-weight: 500;
-  padding-top: 2.5%;
-  padding-bottom: 1%;
+  padding-bottom: 2vw;
 }
 p {
   font-family: "Roboto", sans-serif;
@@ -27,12 +29,9 @@ p {
   padding-top: 10px;
   line-height: 1.6;
 }
-
 /* Start Design of the home Page - sam */
 /*slideshow style*/
-.slide-show-container {
-  width: 100%;
-}
+
 .slide {
   display: flex;
   align-items: center;
@@ -59,7 +58,7 @@ p {
 .cycle-prev,
 .cycle-next {
   position: absolute;
-  top: 50%;
+  top: 30%;
   background-color: rgba(0, 0, 0, 0.3);
   color: wheat;
   padding: 1px 10px;
@@ -81,7 +80,7 @@ p {
 .cycle-pager {
   position: absolute;
   bottom: 20px;
-
+  z-index: 1003;
   width: 100%;
   text-align: center;
 }
@@ -101,54 +100,31 @@ p {
 
 /*Sam To be Continued */
 /*popular Bikinis */
-.popular-bikini-container {
-  margin-top: 2%;
-  margin-bottom: 2%;
-  width: 980px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .bikinis-row {
   margin-top: 5%;
   display: flex;
   justify-content: space-evenly;
 }
 .prices {
-  font-family: Roboto;
-  font-size: 19px;
-  font-weight: 600;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
+  font-weight: bold;
 }
 
 /*offers Section*/
 .offers-section {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  position: relative;
+  color: whitesmoke;
 }
 .offers-section img {
-  width: 100%;
-  display: block;
-  position: relative;
+  width: 50%;
 }
-.text-offers-section {
-  position: absolute;
-}
+
 .button {
-  background-image: linear-gradient(to right, #b3aee4 0%, #eee 100%);
-  width: 165px;
-  text-align: center;
-  background-size: 120% auto;
-  box-shadow: 0 0 20px #eee;
-  border-radius: 30px;
-  display: block;
-  margin-left: 78%;
-  padding-right: 10px;
-  height: 50px;
-  align-items: center;
+  background-color: rgba(179, 174, 228, 1);
+  max-width: fit-content;
+  padding: 1%;
+  border-radius: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .button a {
   text-decoration: none;
@@ -156,47 +132,27 @@ p {
 }
 
 /*Norma section story*/
-.normas-section {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .text-image-container-story {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
-.text-image-container-story p {
-  margin-right: 7%;
-}
+
 /*Reviews Athlete*/
 
 .reviews-container {
-  width: 100%;
-  background: linear-gradient(
-    139.18deg,
-    rgba(179, 174, 228, 0.5) 8.15%,
-    rgba(238, 238, 238, 0.5) 91.71%
-  );
   margin-right: 2%;
   margin-top: 5%;
-  display: block;
+  width: 1000px;
 }
 .reviews-container H2 {
   text-align: center;
 }
-.name-img-stars {
-  display: flex;
-  max-width: fit-content;
-  height: auto;
-}
-.name-img-stars img {
-  width: 30%;
+.reviews-container img {
   border-radius: 50%;
-  margin-right: 10%;
 }
-.name-title {
-  width: fit-content;
-}
+
 .personas-section {
   display: flex;
 }
@@ -216,20 +172,12 @@ p {
 }
 
 /*Blogs section*/
-.blogs_container {
-  position: relative;
-}
 .blogs_container img {
-  width: 100%;
-}
-.blogs_container p,
-.blogs_container h1 {
-  text-align: end;
+  width: 50%;
 }
 .button-blog {
   display: flex;
   justify-content: flex-end;
-  position: absolute;
   background-color: rgba(179, 174, 228, 1);
   max-width: fit-content;
   padding: 2%;
@@ -237,11 +185,9 @@ p {
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.blogs_container a {
-  position: absolute;
+.button-blog a {
   text-decoration: none;
   color: black;
-  text-align: center;
 }
 
 /*End Design of the Home Page */
@@ -267,7 +213,6 @@ p {
   padding-right: 40px;
   background-color: #eee;
   position: fixed;
-  z-index: 1000;
   /* overflow: auto; */
 }
 .navbar a {
@@ -457,6 +402,9 @@ input {
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   outline-width: 0;
 }
+label {
+  padding-bottom: 5px;
+}
 .rightForm {
   padding-left: 7%;
 }
@@ -535,7 +483,11 @@ footer ul li {
   line-height: 1.6;
 }
 .pages {
+  padding-bottom: 0.8vw;
   padding-left: 50px;
+}
+.media-icons {
+  padding-top: 0.4vw;
 }
 footer a:hover {
   color: darkgray;
