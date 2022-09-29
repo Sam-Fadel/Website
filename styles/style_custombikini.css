@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
 
+
+/* Text Styling  */
 h1 {
     text-align: center;
     font-family: 'Syne', sans-serif;
@@ -12,6 +14,7 @@ h1 {
     font-weight: 600;
 }
 
+/* Image styling */
 .frontview {
     max-width: 95%;
 }
@@ -20,6 +23,7 @@ h1 {
     max-width: 87%;
 }
 
+/* Layout Work For the Customizer */
 .customiserContainer {
     /* position: absolute; */
     align-self: center;
