@@ -3,19 +3,19 @@
   margin:0
 }
 main {
-  padding-top: 95px;
+  padding-top: 110px;
   padding-left: 90px;
   padding-right: 90px;
 }
 h1 {
   font-family: "Syne", sans-serif;
   font-weight: 500;
+  padding-bottom: 1vw;
 }
 h2 {
   font-family: "Syne", sans-serif;
   font-weight: 500;
-  padding-top: 2.5%;
-  padding-bottom: 1%;
+  padding-bottom: 2vw;
 }
 p {
   font-family: "Roboto", sans-serif;
@@ -398,6 +398,9 @@ input {
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   outline-width: 0;
 }
+label{
+  padding-bottom: 5px;
+}
 .rightForm {
   padding-left: 7%;
 }
@@ -476,7 +479,11 @@ footer ul li {
   line-height: 1.6;
 }
 .pages {
+  padding-bottom: 0.8vw;
   padding-left: 50px;
+}
+.media-icons{
+  padding-top: 0.4vw;
 }
 footer a:hover {
   color: darkgray;
