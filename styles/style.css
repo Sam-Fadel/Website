@@ -226,23 +226,6 @@ p {
 .blogs_container h1 {
   text-align: end;
 }
-.button-blog {
-  display: flex;
-  justify-content: flex-end;
-  position: absolute;
-  background-color: rgba(179, 174, 228, 1);
-  max-width: fit-content;
-  padding: 2%;
-  border-radius: 15%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-.blogs_container a {
-  position: absolute;
-  text-decoration: none;
-  color: black;
-  text-align: center;
-}
 
 /*End Design of the Home Page */
 
