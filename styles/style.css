@@ -1,12 +1,23 @@
 * {
   box-sizing: border-box;
+<<<<<<< HEAD
   margin:0
 }
 main {
   padding-top: 110px;
   padding-left: 90px;
   padding-right: 90px;
+=======
+  margin: 0;
+  padding: 0;
 }
+
+header {
+  margin-bottom: 5%;
+  width: 100%;
+>>>>>>> Sam-Home-page
+}
+
 h1 {
   font-family: "Syne", sans-serif;
   font-weight: 500;
@@ -24,9 +35,12 @@ p {
   padding-top: 10px;
   line-height: 1.6;
 }
+
 /* Start Design of the home Page - sam */
 /*slideshow style*/
-
+.slide-show-container {
+  width: 100%;
+}
 .slide {
   display: flex;
   align-items: center;
@@ -40,7 +54,6 @@ p {
 .slide-text {
   position: absolute;
   bottom: 0;
-
   color: #fff;
   width: 100%;
   padding: 10px;
@@ -54,7 +67,7 @@ p {
 .cycle-prev,
 .cycle-next {
   position: absolute;
-  top: 30%;
+  top: 50%;
   background-color: rgba(0, 0, 0, 0.3);
   color: wheat;
   padding: 1px 10px;
@@ -76,7 +89,7 @@ p {
 .cycle-pager {
   position: absolute;
   bottom: 20px;
-  z-index: 1003;
+
   width: 100%;
   text-align: center;
 }
@@ -96,31 +109,54 @@ p {
 
 /*Sam To be Continued */
 /*popular Bikinis */
-
+.popular-bikini-container {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .bikinis-row {
   margin-top: 5%;
   display: flex;
   justify-content: space-evenly;
 }
 .prices {
-  font-weight: bold;
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 /*offers Section*/
 .offers-section {
-  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
 }
 .offers-section img {
-  width: 50%;
+  width: 100%;
+  display: block;
+  position: relative;
 }
-
+.text-offers-section {
+  position: absolute;
+}
 .button {
-  background-color: rgba(179, 174, 228, 1);
-  max-width: fit-content;
-  padding: 1%;
-  border-radius: 15%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  background-image: linear-gradient(to right, #b3aee4 0%, #eee 100%);
+  width: 165px;
+  text-align: center;
+  background-size: 120% auto;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 30px;
+  display: block;
+  margin-left: 78%;
+  padding-right: 10px;
+  height: 50px;
+  align-items: center;
 }
 .button a {
   text-decoration: none;
@@ -128,27 +164,47 @@ p {
 }
 
 /*Norma section story*/
-
+.normas-section {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .text-image-container-story {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
-
+.text-image-container-story p {
+  margin-right: 7%;
+}
 /*Reviews Athlete*/
 
 .reviews-container {
+  width: 100%;
+  background: linear-gradient(
+    139.18deg,
+    rgba(179, 174, 228, 0.5) 8.15%,
+    rgba(238, 238, 238, 0.5) 91.71%
+  );
   margin-right: 2%;
   margin-top: 5%;
-  width: 1000px;
+  display: block;
 }
 .reviews-container H2 {
   text-align: center;
 }
-.reviews-container img {
-  border-radius: 50%;
+.name-img-stars {
+  display: flex;
+  max-width: fit-content;
+  height: auto;
 }
-
+.name-img-stars img {
+  width: 30%;
+  border-radius: 50%;
+  margin-right: 10%;
+}
+.name-title {
+  width: fit-content;
+}
 .personas-section {
   display: flex;
 }
@@ -168,12 +224,20 @@ p {
 }
 
 /*Blogs section*/
+.blogs_container {
+  position: relative;
+}
 .blogs_container img {
-  width: 50%;
+  width: 100%;
+}
+.blogs_container p,
+.blogs_container h1 {
+  text-align: end;
 }
 .button-blog {
   display: flex;
   justify-content: flex-end;
+  position: absolute;
   background-color: rgba(179, 174, 228, 1);
   max-width: fit-content;
   padding: 2%;
@@ -181,9 +245,11 @@ p {
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.button-blog a {
+.blogs_container a {
+  position: absolute;
   text-decoration: none;
   color: black;
+  text-align: center;
 }
 
 /*End Design of the Home Page */
@@ -209,6 +275,7 @@ p {
   padding-right: 40px;
   background-color: #eee;
   position: fixed;
+  z-index: 1000;
   /* overflow: auto; */
 }
 .navbar a {
