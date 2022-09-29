@@ -57,7 +57,7 @@ textarea {
 }
 
 .imgContainer {
-    border: black solid 1px;
+    /* border: black solid 1px; */
     grid-column: 4 / 8;
     display: grid;
     grid-template-columns: 1fr 1fr;
