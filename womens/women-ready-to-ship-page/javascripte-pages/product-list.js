@@ -1,7 +1,7 @@
 const url = "https://stardust-4381.restdb.io/rest/bikinicollection?max=2";
 const options = {
   Headers: {
-    "x-apikey": "63359eba32330102d591d2a4",
+    "x-apikey": "90ded75a3e51e85c9f27ed4dc204800808dcb",
   },
 };
 fetch(url, options)
