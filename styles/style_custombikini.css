@@ -6,6 +6,7 @@ h1 {
     text-align: center;
     font-family: 'Syne', sans-serif;
     font-weight: 700;
+    padding-bottom: 0.75vh;
 }
 
 .optionCardButtonLabel {
@@ -16,14 +17,20 @@ h1 {
 
 /* Image styling */
 .frontview {
-    max-width: 95%;
+    max-width: 90%;
 }
 
 .backview {
-    max-width: 87%;
+    max-width: 80%;
 }
 
 /* Layout Work For the Customizer */
+
+/* To paddin on the style.css is too much for this page :D */
+main {
+    padding-top: 5.5%;
+}
+
 .customiserContainer {
     /* position: absolute; */
     align-self: center;
