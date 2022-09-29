@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto&family=Syne:wght@500;700&display=swap');
+
+:root {
+    --text-font: 'Roboto', sans-serif;
+}
+
+/* Text Styling  */
+h1 {
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    padding-top: 0.75vh;
+    padding-bottom: 0.75vh;
+}
+
+
+h4 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 500;
+    font-size: 1vmax;
+}
+
+button {
+    font-family: var(--text-font);
+}
+
+textarea {
+    font-family: var(--text-font);
+}
+
+.optionCardButtonLabel {
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+}
+
+/* Image styling */
+.frontview {
+    max-width: 85%;
+}
+
+.backview {
+    max-width: 80%;
+}
+
+/* Layout Work For the Customizer */
+
+.customiserContainer {
+    /* position: absolute; */
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: .5%;
+    grid-row-gap: 1%;
+}
+
+.imgContainer {
+    border: black solid 1px;
+    grid-column: 4 / 8;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+
+}
+
+.infoCard {
+    border: black solid 1px;
+    grid-column: 9 / 11
+}
+
+.optionCard {
+    /* border: black solid 1px !important; */
+    /* position: absolute; */
+    width: 1074px;
+    height: 166px;
+    grid-row: 2;
+    grid-column: 3 / 12;
+}
+
+.optionCardButtonsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+
+.sizeOptions {
+    border: black solid 1px !important;
+    position: absolute;
+    height: 166px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.optionSelector {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly
+}
+
+.sizeOptions>button {
+    padding: 1%;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
