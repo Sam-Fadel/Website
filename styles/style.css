@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
 }
-
+/*sam did update some od the css
 header {
   margin-bottom: 5%;
   width: 100%;
@@ -45,7 +45,7 @@ p {
 .slide-text {
   position: absolute;
   bottom: 0;
-  color: #fff;
+  color: rgb(239, 235, 235);
   width: 100%;
   padding: 10px;
   text-align: end;
