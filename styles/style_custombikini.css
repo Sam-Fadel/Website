@@ -87,6 +87,7 @@ textarea {
 
 .sizeOptions {
     border: black solid 1px !important;
+    border-radius: 8px;
     position: absolute;
     height: 166px;
     width: 70%;
