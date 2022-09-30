@@ -233,6 +233,9 @@ padding-top: 18px;
 }
 .name-img-stars {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-width: fit-content;
   height: auto;
 }
@@ -260,6 +263,7 @@ padding-top: 18px;
 }
 .name-img-stars img {
   width: 50%;
+  margin-bottom: 5%;
 }
 
 /*Blogs section*/
