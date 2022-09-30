@@ -122,17 +122,16 @@ p {
 /*Sam To be Continued */
 /*popular Bikinis */
 .popular-bikini-container {
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
 }
 .bikinis-row {
-  margin-top: 5%;
+  margin-top: 2%;
   display: flex;
   justify-content: space-evenly;
   
 }
 .bikinis-row img {
- height: 270px;
+ height: 290px;
 }
 .prices {
   font-family: Roboto;
@@ -181,6 +180,9 @@ p {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+}
+.aboutusheading{
+  margin-top: 5%;
 }
 .text-image-container-story {
   display: flex;
