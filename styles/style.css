@@ -17,14 +17,28 @@ header {
 h1 {
   font-family: "Syne", sans-serif;
   font-weight: 500;
+  margin-bottom: 3%;
+  margin-top: 1%;
 }
 h2 {
   font-family: "Syne", sans-serif;
   font-weight: 500;
   padding-top: 2.5%;
-  padding-bottom: 1%;
+  padding-bottom: 2%;
 }
-p {
+h3{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding-top: 7px;
+}
+.type{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: lightslategray;
+}
+p{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -33,19 +47,32 @@ p {
 }
 
 /* Start Design of the home Page - sam */
+
 /*slideshow style*/
+.ads{
+  position: absolute;
+  z-index: 100;
+  padding-top: 200px;
+  padding-left: 170px;
+  font-size: 7vw;
+  color:white;
+}
 .slide-show-container {
   width: 100%;
 }
 .slide {
   display: flex;
   align-items: center;
+  position: apsolute;
+  height: 46vw;
   width: 100%;
-  position: relative;
+  margin-top: -0.7vw;
 }
 .slide img {
-  width: 100%;
-  display: block;
+  width: 100.5vw;
+  display:block;
+  margin-left: -7vw;
+  height: 46vw;
 }
 .slide-text {
   position: absolute;
@@ -70,7 +97,7 @@ p {
   display: block;
   cursor: pointer;
   font-size: 130%;
-  z-index: 1000;
+  z-index: 100;
   opacity: 0;
   transition: opacity 0.5s;
 }
@@ -106,22 +133,22 @@ p {
 /*Sam To be Continued */
 /*popular Bikinis */
 .popular-bikini-container {
-  margin-top: 2%;
-  margin-bottom: 2%;
-  width: 980px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 4%;
 }
 .bikinis-row {
-  margin-top: 5%;
+  margin-top: 2%;
   display: flex;
   justify-content: space-evenly;
+  
+}
+.bikinis-row img {
+ height: 290px;
 }
 .prices {
   font-family: Roboto;
-  font-size: 19px;
-  font-weight: 600;
+  font-size: 16px;
   line-height: 22px;
+  font-weight: bolder;
   letter-spacing: 0em;
   text-align: left;
 }
@@ -140,6 +167,27 @@ p {
 }
 .text-offers-section {
   position: absolute;
+}
+.button-offers{
+  background-image: linear-gradient(to right, #b3aee4 0%, #eee 100%);
+  width: 195px;
+  background-size: 120% auto;
+  border-radius: 30px;
+  height: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  position:absolute;
+  margin-left: 5%;
+  margin-top: 26%;
+}
+.button-offers p{
+  font-weight: bolder;
+padding-left: 32px;
+padding-top: 18px;
+}
+.button-offers:hover{
+  background-position: right center;
 }
 .button {
   background-image: linear-gradient(to right, #b3aee4 0%, #eee 100%);
@@ -164,6 +212,9 @@ p {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+}
+.aboutusheading{
+  margin-top: 5%;
 }
 .text-image-container-story {
   display: flex;
@@ -190,6 +241,9 @@ p {
 }
 .name-img-stars {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-width: fit-content;
   height: auto;
 }
@@ -217,6 +271,7 @@ p {
 }
 .name-img-stars img {
   width: 50%;
+  margin-bottom: 5%;
 }
 
 /*Blogs section*/
@@ -226,11 +281,27 @@ p {
 .blogs_container img {
   width: 100%;
 }
-.blogs_container p,
-.blogs_container h1 {
-  text-align: end;
+.button-blog{
+  background-image: linear-gradient(to right, #b3aee4 0%, #eee 100%);
+  width: 175px;
+  background-size: 120% auto;
+  border-radius: 30px;
+  height: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  position:absolute;
+  margin-left: 80%;
+  margin-top: 30%;
 }
-
+.button-blog p{
+  font-weight: bolder;
+padding-left: 40px;
+padding-top: 18px;
+}
+.button-blog:hover{
+  background-position: right center;
+}
 /*End Design of the Home Page */
 
 .aboutUs {
