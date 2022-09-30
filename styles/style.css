@@ -17,6 +17,8 @@ header {
 h1 {
   font-family: "Syne", sans-serif;
   font-weight: 500;
+  margin-bottom: 3%;
+  margin-top: 1%;
 }
 h2 {
   font-family: "Syne", sans-serif;
@@ -36,7 +38,7 @@ h3{
   font-size: 13px;
   color: lightslategray;
 }
-p {
+p{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -45,6 +47,7 @@ p {
 }
 
 /* Start Design of the home Page - sam */
+
 /*slideshow style*/
 .slide-show-container {
   width: 100%;
@@ -157,6 +160,27 @@ p {
 .text-offers-section {
   position: absolute;
 }
+.button-offers{
+  background-image: linear-gradient(to right, #b3aee4 0%, #eee 100%);
+  width: 195px;
+  background-size: 120% auto;
+  border-radius: 30px;
+  height: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  position:absolute;
+  margin-left: 5%;
+  margin-top: 26%;
+}
+.button-offers p{
+  font-weight: bolder;
+padding-left: 32px;
+padding-top: 18px;
+}
+.button-offers:hover{
+  background-position: right center;
+}
 .button {
   background-image: linear-gradient(to right, #b3aee4 0%, #eee 100%);
   width: 165px;
@@ -245,11 +269,27 @@ p {
 .blogs_container img {
   width: 100%;
 }
-.blogs_container p,
-.blogs_container h1 {
-  text-align: end;
+.button-blog{
+  background-image: linear-gradient(to right, #b3aee4 0%, #eee 100%);
+  width: 175px;
+  background-size: 120% auto;
+  border-radius: 30px;
+  height: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  position:absolute;
+  margin-left: 80%;
+  margin-top: 30%;
 }
-
+.button-blog p{
+  font-weight: bolder;
+padding-left: 40px;
+padding-top: 18px;
+}
+.button-blog:hover{
+  background-position: right center;
+}
 /*End Design of the Home Page */
 
 .aboutUs {
