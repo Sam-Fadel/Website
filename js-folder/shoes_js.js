@@ -1,7 +1,7 @@
-const url = "https://stardustlab-f855.restdb.io/rest/shoe-collectionw?max=20";
+const url = "https://stardustlab-f855.restdb.io/rest/shoe-collectionw?max=2";
 
 const options = {
-  header: {
+  headers: {
     "x-apikey": "6336305e626b9c747864a8f0",
   },
 };
