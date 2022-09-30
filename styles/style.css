@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
 }
-main{
+main {
   padding-top: 20px;
   margin-left: 95px;
   margin-right: 95px;
@@ -26,19 +26,19 @@ h2 {
   padding-top: 2.5%;
   padding-bottom: 2%;
 }
-h3{
+h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   padding-top: 7px;
 }
-.type{
+.type {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 13px;
   color: lightslategray;
 }
-p{
+p {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -49,13 +49,13 @@ p{
 /* Start Design of the home Page - sam */
 
 /*slideshow style*/
-.ads{
+.ads {
   position: absolute;
   z-index: 100;
   padding-top: 200px;
   padding-left: 170px;
   font-size: 7vw;
-  color:white;
+  color: white;
 }
 .slide-show-container {
   width: 100%;
@@ -70,7 +70,7 @@ p{
 }
 .slide img {
   width: 100.5vw;
-  display:block;
+  display: block;
   margin-left: -7vw;
   height: 46vw;
 }
@@ -139,10 +139,9 @@ p{
   margin-top: 2%;
   display: flex;
   justify-content: space-evenly;
-  
 }
 .bikinis-row img {
- height: 290px;
+  height: 290px;
 }
 .prices {
   font-family: Roboto;
@@ -168,7 +167,7 @@ p{
 .text-offers-section {
   position: absolute;
 }
-.button-offers{
+.button-offers {
   background-image: linear-gradient(to right, #b3aee4 0%, #eee 100%);
   width: 195px;
   background-size: 120% auto;
@@ -177,16 +176,16 @@ p{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  position:absolute;
+  position: absolute;
   margin-left: 5%;
   margin-top: 26%;
 }
-.button-offers p{
+.button-offers p {
   font-weight: bolder;
-padding-left: 32px;
-padding-top: 18px;
+  padding-left: 32px;
+  padding-top: 18px;
 }
-.button-offers:hover{
+.button-offers:hover {
   background-position: right center;
 }
 .button {
@@ -213,7 +212,7 @@ padding-top: 18px;
   margin-left: auto;
   margin-right: auto;
 }
-.aboutusheading{
+.aboutusheading {
   margin-top: 5%;
 }
 .text-image-container-story {
@@ -281,7 +280,7 @@ padding-top: 18px;
 .blogs_container img {
   width: 100%;
 }
-.button-blog{
+.button-blog {
   background-image: linear-gradient(to right, #b3aee4 0%, #eee 100%);
   width: 175px;
   background-size: 120% auto;
@@ -290,16 +289,16 @@ padding-top: 18px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  position:absolute;
+  position: absolute;
   margin-left: 80%;
   margin-top: 30%;
 }
-.button-blog p{
+.button-blog p {
   font-weight: bolder;
-padding-left: 40px;
-padding-top: 18px;
+  padding-left: 40px;
+  padding-top: 18px;
 }
-.button-blog:hover{
+.button-blog:hover {
   background-position: right center;
 }
 /*End Design of the Home Page */
@@ -418,6 +417,58 @@ ul li {
   color: #7f73f5;
   transition: 0.5s;
 }
+
+/*Subscrinbtions Contaioner */
+.subscribtions-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  column-gap: 20px;
+}
+
+.tree-months,
+.six-months,
+.twelve-months {
+  background: linear-gradient(
+    139.18deg,
+    rgba(179, 174, 228, 0.5) 8.15%,
+    rgba(238, 238, 238, 0.5) 91.71%
+  );
+  width: 363px;
+  height: 447px;
+  top: 236px;
+  left: 138px;
+  border-radius: 39px;
+  text-align: center;
+  border-radius: 10%;
+  padding-top: 40px;
+}
+.tree-months ol {
+  text-decoration: none;
+  text-align: center;
+}
+.tree-months li {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  list-style: none;
+}
+.tree-months p {
+  margin-bottom: 50px;
+}
+.tree-months a {
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  color: #242a31;
+  border: 3px solid black;
+  margin-top: 20px;
+  padding: 10px 60px 10px 60px;
+  border-radius: 39px;
+  text-align: center;
+}
+
+/*End Subscribtion Container*/
 
 @media screen and (max-width: 880px) {
   .logo {
