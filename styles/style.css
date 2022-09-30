@@ -49,6 +49,14 @@ p{
 /* Start Design of the home Page - sam */
 
 /*slideshow style*/
+.ads{
+  position: absolute;
+  z-index: 100;
+  padding-top: 200px;
+  padding-left: 170px;
+  font-size: 7vw;
+  color:white;
+}
 .slide-show-container {
   width: 100%;
 }
